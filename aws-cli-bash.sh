@@ -5,10 +5,10 @@ do
   read -p "Enter the type of operation: " optype
   case $optype in
   "1")
-       bash create_aws_resource.sh
+       bash create_aws_dir/create_aws_resource.sh
        ;;
   "2")
-       bash describe_resource.sh
+       bash describe_aws_dir/describe_aws_resource.sh
        ;;
   "3")
        echo "You choose to quit ... exiting"
