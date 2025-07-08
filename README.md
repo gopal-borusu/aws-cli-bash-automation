@@ -26,6 +26,7 @@ Now we are ready to use the AWS CLI for managing the AWS resources from command 
 To run the bash script first we need to clone it to the server. use "git clone https://github.com/gopal-borusu/aws-cli-bash-automation".
 
 cd aws-cli-bash-automation
+
 ./aws-cli-bash.sh
 
 Follow the prompts and run the script as per your need.
